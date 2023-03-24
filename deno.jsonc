@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.178.0/",
+    "graphql-modules": "https://esm.sh/graphql-modules@2.1.0?pin=v108",
+    "graphql-yoga": "https://esm.sh/graphql-yoga@3.7.1?pin=v108",
+    "@envelop/graphql-modules": "https://esm.sh/@envelop/graphql-modules@4.0.6?pin=v108"
+  },
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  }
+}
